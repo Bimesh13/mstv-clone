@@ -4,7 +4,7 @@ import { Link, Outlet } from "react-router-dom";
 export default function Testpaper() {
   return (
     <div className="container">
-      <Link to="/" className="link-tag">
+      <Link to="/home" className="link-tag">
         <div className="return-link">Return Back</div>
       </Link>
       <div className="content-part">

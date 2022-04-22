@@ -144,3 +144,34 @@ body {
   text-align: justify;
   line-height: 1.6;
 }
+
+.log-out {
+  height: 100vh;
+  background-color: #6a46de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-field {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.login-button {
+  width: 300px;
+  background-color: #edf1fa;
+  color: #6a46de;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}

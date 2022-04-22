@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function AdditonalContent() {
   return (
     <div className="container">
-      <Link to="/" className="link-tag">
+      <Link to="/home" className="link-tag">
         <div className="return-link">Return Back</div>
       </Link>
       <div className="content-part">
